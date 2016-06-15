@@ -19,9 +19,11 @@ $ npm install ensure-file --save
 ## Usage
 
 ```js
-var ensureFile = require('ensure-file')
+'use strict'
 
+var ensureFile = require('ensure-file')
 var file = '/tmp/this/path/does/not/exist/file.txt'
+
 ensureFile(file, function (err) {
   console.log(err) // => null
   // file has now been created, including the directory it is to be placed in
