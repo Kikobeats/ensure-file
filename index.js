@@ -5,7 +5,11 @@ var fs = require('graceful-fs')
 var mkdirp = require('mkdirp')
 var path = require('path')
 
+function noop () {}
+
 function createFile (file, cb) {
+  cb = cb || noop
+
   function makeFile () {
     return fs.writeFile(file, '', cb)
   }
