@@ -29,7 +29,7 @@
     "touch"
   ],
   "dependencies": {
-    "exists-file": "~2.0.0",
+    "exists-file": "~2.0.1",
     "fs-extra": "~0.30.0",
     "graceful-fs": "~4.1.4",
     "mkdirp": "~0.5.1"
@@ -44,6 +44,9 @@
   "engines": {
     "node": ">= 0.10"
   },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "clean": "rm -rf node_modules",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
