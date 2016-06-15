@@ -1,3 +1,10 @@
+<a name="1.0.1"></a>
+## 1.0.1 (2016-06-15)
+
+* Update dep ([8f0f690](https://github.com/kikobeats/ensure-file/commit/8f0f690))
+
+
+
 <a name="1.0.0"></a>
 # 1.0.0 (2016-06-15)
 
