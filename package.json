@@ -49,7 +49,7 @@
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "lint": "standard lib index.js",
     "pretest": "npm run lint",
-    "test": "mocha"
+    "test": "nyc mocha"
   },
   "license": "MIT"
 }
