@@ -1,5 +1,6 @@
 'use strict'
 
+var existsFile = require('exists-file')
 var fs = require('graceful-fs')
 var mkdirp = require('mkdirp')
 var path = require('path')
@@ -9,10 +10,10 @@ function createFile (file, cb) {
     return fs.writeFile(file, '', cb)
   }
 
-  fs.exists(file, function (fileExists) {
+  existsFile(file, function (fileExists) {
     if (fileExists) return cb()
     var dir = path.dirname(file)
-    fs.exists(dir, function (dirExists) {
+    existsFile(dir, function (dirExists) {
       if (dirExists) return makeFile()
       mkdirp(dir, function (err) {
         if (err) return cb(err)
@@ -23,10 +24,10 @@ function createFile (file, cb) {
 }
 
 createFile.sync = function createFileSync (file) {
-  if (fs.existsSync(file)) return
+  if (existsFile.sync(file)) return
   var dir = path.dirname(file)
-  if (!fs.existsSync(dir)) mkdirp.sync(dir)
-  fs.writeFileSync(file, '')
+  if (!existsFile.sync(dir)) mkdirp.sync(dir)
+  return fs.writeFileSync(file, '')
 }
 
 module.exports = createFile
