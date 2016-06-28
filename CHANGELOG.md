@@ -1,3 +1,10 @@
+<a name="1.0.3"></a>
+## 1.0.3 (2016-06-28)
+
+* Fix tests ([3f147ad](https://github.com/kikobeats/ensure-file/commit/3f147ad))
+
+
+
 <a name="1.0.2"></a>
 ## 1.0.2 (2016-06-28)
 
