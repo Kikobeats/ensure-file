@@ -1,3 +1,11 @@
+<a name="1.0.2"></a>
+## 1.0.2 (2016-06-28)
+
+* Remove unnecessary dep ([28174ed](https://github.com/kikobeats/ensure-file/commit/28174ed))
+* chore(package): update exists-file to version 2.1.0 ([3ba07ab](https://github.com/kikobeats/ensure-file/commit/3ba07ab))
+
+
+
 <a name="1.0.1"></a>
 ## 1.0.1 (2016-06-15)
 
