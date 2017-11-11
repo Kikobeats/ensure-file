@@ -1,5 +1,7 @@
 # ensure-file
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/ensure-file.svg)](https://greenkeeper.io/)
+
 ![Last version](https://img.shields.io/github/tag/Kikobeats/ensure-file.svg?style=flat-square)
 [![Build Status](https://img.shields.io/travis/Kikobeats/ensure-file/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/ensure-file)
 [![Coverage Status](https://img.shields.io/coveralls/Kikobeats/ensure-file.svg?style=flat-square)](https://coveralls.io/github/Kikobeats/ensure-file)
