@@ -1,3 +1,32 @@
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+<a name="1.0.4"></a>
+## 1.0.4 (2018-11-05)
+
+
+
+<a name="1.0.3"></a>
+## 1.0.3 (2016-06-28)
+
+
+
+<a name="1.0.2"></a>
+## 1.0.2 (2016-06-28)
+
+
+
+<a name="1.0.1"></a>
+## 1.0.1 (2016-06-15)
+
+
+
+<a name="1.0.0"></a>
+# 1.0.0 (2016-06-15)
+
+
+
 <a name="1.0.3"></a>
 ## 1.0.3 (2016-06-28)
 
@@ -30,6 +59,3 @@
 * Send coverage report ([e2b0b63](https://github.com/kikobeats/ensure-file/commit/e2b0b63))
 * Update exists-file dep ([d458363](https://github.com/kikobeats/ensure-file/commit/d458363))
 * Use exists-file dep ([7754d31](https://github.com/kikobeats/ensure-file/commit/7754d31))
-
-
-
