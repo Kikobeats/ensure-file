@@ -1,6 +1,15 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [1.0.5](https://github.com/kikobeats/ensure-file/compare/v1.0.4...v1.0.5) (2019-05-20)
+
+
+### Build System
+
+* change git-authors-cli position ([65429ed](https://github.com/kikobeats/ensure-file/commit/65429ed))
+
+
 
 <a name="1.0.4"></a>
 ## 1.0.4 (2018-11-05)
