@@ -64,10 +64,10 @@
     "pretest": "npm run lint",
     "test": "nyc mocha",
     "postrelease": "npm run release:tags && npm run release:github && ci-publish",
-    "prerelease": "npm run update:check && git-authors-cli",
+    "prerelease": "npm run update:check",
     "release:github": "conventional-github-releaser -p angular",
     "release:tags": "git push --follow-tags origin HEAD:master",
-    "release": "git add package.json && standard-version -a",
+    "release": "git-authors-cli && git add package.json && standard-version -a",
     "update:check": "ncu -- --error-level 2",
     "update": "ncu -a"
   },
@@ -81,11 +81,6 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "lint-staged"
-    }
-  },
-  "standard-version": {
-    "scripts": {
-      "prechangelog": "git-authors-cli"
     }
   },
   "lint-staged": {
