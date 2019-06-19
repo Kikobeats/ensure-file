@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.6](https://github.com/kikobeats/ensure-file/compare/v1.0.5...v1.0.6) (2019-06-19)
+
+
+### Build System
+
+* update meta ([bac33d8](https://github.com/kikobeats/ensure-file/commit/bac33d8))
+* update travis ([b89ce40](https://github.com/kikobeats/ensure-file/commit/b89ce40))
+
+
+
 ### [1.0.5](https://github.com/kikobeats/ensure-file/compare/v1.0.4...v1.0.5) (2019-05-20)
 
 
