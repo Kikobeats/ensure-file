@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.7](https://github.com/kikobeats/ensure-file/compare/v1.0.6...v1.0.7) (2019-06-27)
+
+
+### Bug Fixes
+
+* **package:** update graceful-fs to version 4.2.0 ([1646925](https://github.com/kikobeats/ensure-file/commit/1646925))
+
+
+
 ### [1.0.6](https://github.com/kikobeats/ensure-file/compare/v1.0.5...v1.0.6) (2019-06-19)
 
 

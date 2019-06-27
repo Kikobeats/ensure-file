@@ -2,7 +2,7 @@
   "name": "ensure-file",
   "description": "Ensures that the file path exists.",
   "homepage": "https://nicedoc.io/Kikobeats/ensure-file",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.js",
   "author": {
     "name": "Kiko Beats",
