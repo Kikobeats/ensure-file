@@ -30,7 +30,7 @@
   ],
   "dependencies": {
     "exists-file": "~3.0.0",
-    "graceful-fs": "~4.1.4",
+    "graceful-fs": "~4.2.0",
     "mkdirp": "~0.5.1"
   },
   "devDependencies": {
