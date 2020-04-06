@@ -31,7 +31,7 @@
   "dependencies": {
     "exists-file": "~3.0.0",
     "graceful-fs": "~4.2.0",
-    "mkdirp": "~0.5.1"
+    "mkdirp": "~1.0.4"
   },
   "devDependencies": {
     "coveralls": "latest",
