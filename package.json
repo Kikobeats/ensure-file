@@ -29,8 +29,8 @@
     "touch"
   ],
   "dependencies": {
-    "exists-file": "~3.0.0",
-    "graceful-fs": "~4.2.0",
+    "exists-file": "~3.0.2",
+    "graceful-fs": "~4.2.3",
     "mkdirp": "~1.0.4"
   },
   "devDependencies": {
