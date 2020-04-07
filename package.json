@@ -5,8 +5,8 @@
   "version": "1.0.7",
   "main": "index.js",
   "author": {
-    "name": "Kiko Beats",
     "email": "josefrancisco.verdu@gmail.com",
+    "name": "Kiko Beats",
     "url": "https://github.com/Kikobeats"
   },
   "repository": {
@@ -34,22 +34,22 @@
     "mkdirp": "~1.0.4"
   },
   "devDependencies": {
-    "coveralls": "latest",
-    "fs-extra": "latest",
-    "git-dirty": "latest",
-    "mocha": "latest",
-    "nyc": "latest",
-    "standard": "latest",
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
+    "ci-publish": "latest",
     "conventional-github-releaser": "latest",
+    "coveralls": "latest",
     "finepack": "latest",
+    "fs-extra": "latest",
     "git-authors-cli": "latest",
+    "git-dirty": "latest",
     "husky": "latest",
     "lint-staged": "latest",
+    "mocha": "latest",
     "npm-check-updates": "latest",
-    "standard-version": "latest",
-    "ci-publish": "latest"
+    "nyc": "latest",
+    "standard": "latest",
+    "standard-version": "latest"
   },
   "engines": {
     "node": ">= 0.10"
@@ -61,15 +61,15 @@
     "clean": "rm -rf node_modules",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "lint": "standard lib index.js",
-    "pretest": "npm run lint",
-    "test": "nyc mocha",
     "postrelease": "npm run release:tags && npm run release:github && ci-publish",
     "prerelease": "npm run update:check",
+    "pretest": "npm run lint",
+    "release": "git-authors-cli && git add package.json && standard-version -a",
     "release:github": "conventional-github-releaser -p angular",
     "release:tags": "git push --follow-tags origin HEAD:master",
-    "release": "git-authors-cli && git add package.json && standard-version -a",
-    "update:check": "ncu -- --error-level 2",
-    "update": "ncu -a"
+    "test": "nyc mocha",
+    "update": "ncu -a",
+    "update:check": "ncu -- --error-level 2"
   },
   "license": "MIT",
   "commitlint": {
@@ -84,11 +84,8 @@
     }
   },
   "lint-staged": {
-    "linters": {
-      "package.json": [
-        "finepack",
-        "git add"
-      ]
-    }
+    "package.json": [
+      "finepack"
+    ]
   }
 }
